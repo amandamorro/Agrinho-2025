@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clima e Cidade - Agrinho 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f6f0;
+            color: #2a4d2a;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: #4a7c4a;
+            color: #e9f4e9;
+            text-align: center;
+            padding: 2rem 1rem;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .cabecalho h1 {
+            margin-bottom: 0.3rem;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        .cabecalho h3 {
+            font-weight: 400;
+            font-size: 1.4rem;
+            opacity: 0.85;
+        }
+
+        nav.navbar {
+            background-color: #3f6b3f;
+        }
+
+        nav .nav-link {
+            color: #e9f4e9 !important;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav .nav-link:hover,
+        nav .nav-link.active {
+            color: #a6d39c !important;
+        }
+
+        .container {
+            animation: fadeIn 1s ease forwards;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            animation: fadeIn 1.3s ease forwards;
+        }
+
+        .img-clima {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(60, 130, 60, 0.2);
+            animation: fadeIn 1.5s ease forwards;
+            margin-bottom: 2rem;
+        }
+
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(60, 130, 60, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #2a4d2a;
+            margin-bottom: 1.5rem;
+        }
+
+        .card:hover {
+            box-shadow: 0 12px 24px rgba(60, 130, 60, 0.35);
+            transform: translateY(-6px);
+        }
+
+        .card-title {
+            font-weight: 700;
+            color: #3a6b3a;
+        }
+
+        .btn-primary {
+            background-color: #4a7c4a;
+            border: none;
+            color: #e9f4e9;
+            font-weight: 600;
+            padding: 0.6rem 1.2rem;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #6aa16a;
+            box-shadow: 0 6px 12px rgba(106, 161, 106, 0.6);
+        }
+
+        .footer {
+            background-color: #3f6b3f;
+            color: #e9f4e9;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1>Clima e Cidade</h1>
+        <h3>Como a agricultura impacta o clima urbano</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter: invert(1)"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Página Inicial |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solo-saudavel.html">Solo Saudável |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="clima-e-cidade.html">Clima e Cidade |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alimentacao-sustentavel.html">Alimentação Sustentável</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <h2>Influência da Agricultura no Clima Urbano</h2>
+                <p>
+                    A agricultura urbana tem grande influência no clima das cidades, ajudando a mitigar os efeitos das ilhas de calor. Ao integrar plantas e hortas nas áreas urbanas, aumenta-se a cobertura vegetal, o que reduz a temperatura local, melhora a qualidade do ar e promove a absorção de CO2. Além disso, a agricultura urbana pode melhorar a gestão da água, reduzir o desperdício e promover alimentos frescos e saudáveis, tornando as cidades mais resilientes às mudanças climáticas.
+
+                </p>
+                <h3>Práticas que ajudam o clima</h3>
+                <ul>
+                    <li>Preservação de áreas verdes</li>
+                    <li>Captura de carbono no solo</li>
+                    <li>Redução de agrotóxicos</li>
+                    <li>Uso de técnicas de plantio sustentável</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <img src="./assets/image/2.jpg" alt="Clima e Cidade" class="img-clima" />
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <h3 class="mb-4">Benefícios para a Cidade</h3>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5 class="card-title">Redução do calor urbano</h5>
+                    <p>Mais áreas verdes e melhor solo ajudam a diminuir as ilhas de calor nas cidades.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5 class="card-title">Melhora da qualidade do ar</h5>
+                    <p>Vegetação e solos sadios filtram poluentes, tornando o ar mais limpo.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h5 class="card-title">Proteção contra eventos extremos</h5>
+                    <p>Redução de enchentes e tempestades intensas por meio do manejo adequado do solo e vegetação.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados - Agrinho 2025 | Tema: Agricultura Regenerativa e Conexão Campo-Cidade.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

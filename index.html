@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agrinho 2025 - Agricultura Regenerativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Paleta principal */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f6f0;
+            color: #2a4d2a;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho */
+        .cabecalho {
+            background-color: #4a7c4a;
+            color: #e9f4e9;
+            text-align: center;
+            padding: 2rem 1rem;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .cabecalho h1 {
+            margin-bottom: 0.3rem;
+            font-size: 2.8rem;
+            font-weight: 700;
+        }
+
+        .cabecalho h3 {
+            font-weight: 400;
+            font-size: 1.4rem;
+            opacity: 0.85;
+        }
+
+        /* Navbar */
+        nav.navbar {
+            background-color: #3f6b3f;
+        }
+
+        nav .nav-link {
+            color: #e9f4e9 !important;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        nav .nav-link:hover,
+        nav .nav-link.active {
+            color: #a6d39c !important;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            padding: 3rem 1rem 4rem;
+        }
+
+        h2 {
+            color: #2a4d2a;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        p.alinha,
+        p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            animation: fadeIn 1.3s ease forwards;
+        }
+
+        .img-agro {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(60, 130, 60, 0.2);
+            animation: fadeIn 1.5s ease forwards;
+        }
+
+        /* Cards container */
+        .row.pt-5 {
+            margin-top: 3rem !important;
+        }
+
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(60, 130, 60, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            color: #2a4d2a;
+        }
+
+        .card:hover {
+            box-shadow: 0 12px 24px rgba(60, 130, 60, 0.35);
+            transform: translateY(-6px);
+        }
+
+        .card-title {
+            font-weight: 700;
+            color: #3a6b3a;
+        }
+
+        .btn-primary {
+            background-color: #4a7c4a;
+            border: none;
+            color: #e9f4e9;
+            font-weight: 600;
+            padding: 0.6rem 1.2rem;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #6aa16a;
+            box-shadow: 0 6px 12px rgba(106, 161, 106, 0.6);
+        }
+
+        /* Carousel images */
+        .img-slide {
+            border-radius: 12px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #3f6b3f;
+            color: #e9f4e9;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        /* Animação fade-in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(15px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Fade-in helper classes */
+        .fade-in {
+            animation: fadeIn 1s ease forwards;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="cabecalho fade-in">
+        <h1>AGRINHO 2025</h1>
+        <h3>Festejando a Conexão Campo-Cidade</h3>
+    </section>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="filter: invert(1)"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Página Inicial |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solo-saudavel.html">Solo Saudável |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clima-e-cidade.html">Clima e Cidade |</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alimentacao-sustentavel.html">Alimentação Sustentável</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="row pt-5 fade-in">
+            <div class="col">
+                <h2>O que é Agricultura Regenerativa?</h2>
+                <p class="alinha">
+                 A agricultura regenerativa é um modelo de produção agrícola que vai além da sustentabilidade. Seu objetivo principal não é apenas conservar os recursos naturais, mas regenerá-los — ou seja, restaurar a saúde do solo, da água e da biodiversidade, enquanto se produzem alimentos saudáveis e de qualidade.
+
+Diferente da agricultura tradicional, que muitas vezes esgota o solo e depende de insumos químicos, a agricultura regenerativa propõe um novo olhar para o cultivo: trata o solo como um organismo vivo, promove o equilíbrio ecológico e fortalece o elo entre o homem e a natureza.
+
+As práticas regenerativas incluem o uso de plantas de cobertura para proteger o solo, a rotação de culturas para evitar o desgaste da terra, o uso de compostagem e adubos orgânicos, além do pastoreio rotacionado com animais, que ajudam a fertilizar naturalmente a terra. Todas essas técnicas têm como objetivo aumentar a fertilidade do solo, captar carbono da atmosfera e restaurar ecossistemas.
+
+Além de seus benefícios ambientais, a agricultura regenerativa também traz impactos positivos para as comunidades. Ela contribui para a produção de alimentos mais saudáveis, reduz a dependência de agrotóxicos e melhora a qualidade de vida no campo e na cidade. Ao regenerar o solo, também se protege a água, o ar e a biodiversidade, criando um ciclo de harmonia com o planeta.
+                </p>
+                <p>
+                    Essa prática conecta o campo e a cidade ao oferecer alimentos mais saudáveis, proteger recursos hídricos
+                    e combater as mudanças climáticas que afetam diretamente os centros urbanos.
+                </p>
+            </div>
+            <div class="col text-center">
+                <img class="img-agro" src="./assets/image/WhatsApp Image 2025-05-20 at 21.04.53.jpeg"
+                    alt="Imagem sobre agricultura regenerativa" />
+            </div>
+        </div>
+
+        <div class="row pt-5 fade-in">
+            <h3 class="text-center pb-3">Áreas de Impacto Positivo</h3>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/image/3.jpg" class="img-card card-img-top" src="./assets/image/6.jpg"
+                        alt="Solo Sáudavel" />
+                         <h5 class="card-title">Solo Sáudavel</h5>
+                    <div class="card-body">
+       O solo saudável é a base da agricultura sustentável. Ele é fértil, rico em nutrientes, cheio de vida e essencial para o crescimento das plantas.
+ 
+                        </p>
+                        <a href="solo-saudavel.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/image/1.jpg" class="img-card card-img-top"  src="./assets/image/3.jpg" alt="Clima e cidade" />
+                    <div class="card-body">
+                        <h5 class="card-title">Clima e Cidade</h5>
+                        <p class="card-text">
+                            Ao capturar carbono e preservar vegetações, o campo contribui para cidades com clima mais
+                            estável e menos eventos extremos.
+                        </p>
+                        <a href="clima-e-cidade.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/image/4.jpg" class="img-card card-img-top" src="./assets/image/4.jpg"
+                        alt="Alimentação sustentável" />
+                    <div class="card-body">
+                        <h5 class="card-title">Alimentação Sustentável</h5>
+                        <p class="card-text">
+                            Do campo à mesa: alimentos cultivados com responsabilidade chegam mais frescos e saudáveis às
+                            famílias nas cidades.
+                        </p>
+                        <a href="alimentacao-sustentavel.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </main>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados - Agrinho 2025 | Tema: Agricultura Regenerativa e Conexão Campo-Cidade.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
